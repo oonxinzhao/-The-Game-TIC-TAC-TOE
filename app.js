@@ -14,17 +14,19 @@ function handleClick(event) {
   countClick ++
   userSelectedBlock.classList.toggle('taken')
   if (countClick % 2 === 0) {
-    userSelectedBlock.textContent = player1  
+    userSelectedBlock.textContent = player2  
   } else {
-    userSelectedBlock.textContent = player2
+    userSelectedBlock.textContent = player1
     }
-  blocks.forEach(checkWinner())
+  for (let index = 0;index < blocks.length;index ++) {
+    checkWinner()
+  }
 }
 
 
 function checkLine(index1,index2,index3) {
   if (blocks[index1].textContent === blocks[index2].textContent && blocks[index2].textContent === blocks[index3].textContent) {
-    return true
+  return true
   }
   return false 
 }
@@ -32,7 +34,7 @@ function checkLine(index1,index2,index3) {
 function checkMatch() {
   for (let index = 0; index < 9; index += 3) {
     if(checkLine(index, index + 1, index + 2)) {
-      return blocks[index]
+     return blocks[index]
     }
   }
   for (let index = 0; index < 3; index ++) {
@@ -87,6 +89,8 @@ blocks.forEach(function(block) {
   block.addEventListener('click',handleClick)
 })
 resetBtn.addEventListener('click',resetGame)
+
+
 
 
 
