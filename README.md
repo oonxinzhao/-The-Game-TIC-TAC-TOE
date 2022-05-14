@@ -17,7 +17,7 @@ Tic-tac-toe (American English), noughts and crosses (Commonwealth English), or X
 ### HTML
 
 
-###Javascript
+### Javascript
 -to assign O to player 1 and X to player 2
 -code a function to make O and X appear on the game board when players click
 -code a function to check line by line to see whether we got any winner
