@@ -5,6 +5,8 @@ Tic-tac-toe (American English), noughts and crosses (Commonwealth English), or X
 -Each player will be assign X or O
 -We have to include the reset button so that player can reset the game
 
+-play here link-https://codepen.io/OONXINZHAO/pen/QWQGMeB
+
 ### CSS
 -created nine empty boxes and make it into grid
 -slightly edit the boxes border make it look like #
