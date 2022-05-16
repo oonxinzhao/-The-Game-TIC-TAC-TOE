@@ -5,38 +5,53 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-  
-  
 
+  <link rel="stylesheet" href="style.css">
+  <audio src="game.mp3" class="clicking"></audio>
+  <audio src="game-win.mp3" class="winning"></audio>
+  <audio src="disappointed.mp3" class="disappointed-sound"></audio>
+  
 </head>
 <body>
+
   
   <div class="container">
-    <h1>TIC-TAC-TOE</h1>
+    
+
+    <div class="header">
+      <img class="tictactoe" src="tictactoe.png" alt="">
+      <h1>TIC-TAC-TOE</h1>
+    </div>
+  <div class="middle">
     <h2>The Baby Game</h2>
-    <h3>Player 1 = O</h3>
-    <h3>Player 2 = X</h3>
+    <img class="baby" src="baby.png" alt="">
+  </div>
+    <h3>Player 1 = O ; Player 2 = X</h3><br>
+   
+    
     <div class="game-area">
       
-    <div id="block_1" class="block"></div>
-    <div id="block_2" class="block"></div>
-    <div id="block_3" class="block"></div>
-    <div id="block_4" class="block"></div>
-    <div id="block_5" class="block"></div>
-    <div id="block_6" class="block"></div>
-    <div id="block_7" class="block"></div>
-    <div id="block_8" class="block"></div>
-    <div id="block_9" class="block"></div>
-
+      <div id="block_1" class="block"></div>
+      <div id="block_2" class="block"></div>
+      <div id="block_3" class="block"></div>
+      <div id="block_4" class="block"></div>
+      <div id="block_5" class="block"></div>
+      <div id="block_6" class="block"></div>
+      <div id="block_7" class="block"></div>
+      <div id="block_8" class="block"></div>
+      <div id="block_9" class="block"></div>
     </div>
 
-    
-    
     <h2 class="winner"></h2>
+    <p>Player 1 score : <span class="player1-score"></span></p>
+    <p>Player 2 score : <span class="player2-score"></span></p>
+    <p>Draw : <span class="draw"></span></p>
     <button class="reset-btn">RESET</button>
 
   </div>
+ 
+
+
   
   <script src="app.js"></script>
 </body>
