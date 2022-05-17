@@ -7,6 +7,7 @@ Tic-tac-toe (American English), noughts and crosses (Commonwealth English), or X
 
 <img width="684" alt="Screenshot 2022-05-17 at 9 35 32 AM" src="https://user-images.githubusercontent.com/104043259/168710605-83d11416-9b90-4154-a880-a45bdd83386b.png">
 
+<img width="730" alt="Screenshot 2022-05-17 at 10 40 19 AM" src="https://user-images.githubusercontent.com/104043259/168717352-fb7cdf59-2f26-45b8-8ddb-b1105e16a7ee.png">
 
 
 ## Technique 
